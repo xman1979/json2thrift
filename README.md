@@ -1,3 +1,8 @@
+
+JSON Data File to Apache Thrift IDL
+====================================
+
+```
 Input is json, output is thrift IDL, eg:
 
 test.json:
@@ -23,5 +28,5 @@ structMyStruct{
     3: optional double price,  
     4: optional string name,  
 }
-
-Then you can use Apache thrift compiler ([http://thrift.apache.org/](https://archive.is/o/5XMfE/http://thrift.apache.org/)) to generate code in different languages for data serialization/de-serialization. Especially, with THRIFT-2476 [https://issues.apache.org/jira/browse/THRIFT-2476](https://archive.is/o/5XMfE/https://issues.apache.org/jira/browse/THRIFT-2476) you can use cpp for simple json processing.
+```
+Then you can use Apache thrift compiler to generate code in different languages for data serialization/de-serialization. Especially, with https://github.com/maxiaodong97/thrift-cpp-simplejson-plist-support you can use cpp for simple json processing.
