@@ -31,5 +31,5 @@ structMyStruct{
     4: optional string name,  
 }
 ```
-Then you can use Apache thrift compiler to generate code in different languages for data serialization/de-serialization. Especially, with https://github.com/maxiaodong97/thrift-cpp-simplejson-plist-support
+Then you can use Apache thrift compiler to generate code in different languages for data serialization/de-serialization. Especially, with https://github.com/xman1979/thrift-cpp-simplejson-plist-support
 you can use cpp for simple json processing.
